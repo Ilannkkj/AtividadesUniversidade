@@ -1,0 +1,72 @@
+body {
+    background-color: bisque;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(Bomba\ Combustivel.png);
+    background-repeat: no-repeat;
+    background-size: 55%;
+    background-position: center;
+}
+
+.area-da-bomba {
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.valoresETipoCombustivel {
+    color: white;
+    font-size: 20px;
+    transform: translate(-45px, 90px);
+}
+
+.quantidadeCombustivel {
+    color: rgb(0, 255, 0);
+    background-color: black;
+    width: 50px;
+    height: 25px;
+    transform: translate(-134px, -469px);
+    font-size: 10px;
+    border-radius: 0px;
+    border-color: black;
+}
+
+.selecionarCombustivel {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 145px;
+    height: 28px;
+    border-radius: 0px;
+    border-color: rgb(0, 0, 0);
+    transform: translate(15px, -435px);
+}
+
+.BombaCombustivel {
+    text-align: center;
+    color: white;
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.valorCombustivel {
+    color: rgb(0, 255, 0);
+    background-color: black;
+    width: 23px;
+    height: 10px;
+    padding: 10px;
+    transform: translate(27px, -35px);
+    font-size: 10px;
+}
+
+.valorCombustivel p{
+    display: inline-block;
+    margin: 0;
+    transform: translate(-7px, -10px);
+}
+
